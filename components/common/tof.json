@@ -1,0 +1,4 @@
+[
+  { "id": true, "label": "啟用" },
+  { "id": false, "label": "停用" }
+]

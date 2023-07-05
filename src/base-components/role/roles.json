@@ -1,0 +1,22 @@
+[
+  {
+    "id": "administrator",
+    "roleName": "總管理員"
+  },
+  {
+    "id": "message-manager",
+    "roleName": "電文管理員"
+  },
+  {
+    "id": "sales",
+    "roleName": "業務人員"
+  },
+  {
+    "id": "sales-manager",
+    "roleName": "成交行情管理員"
+  },
+  {
+    "id": "ship-manager",
+    "roleName": "船舶資料管理員"
+  }
+]

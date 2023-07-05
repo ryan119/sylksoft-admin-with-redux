@@ -1,0 +1,10 @@
+[
+  {
+    "id": "traded",
+    "label": "成交行情"
+  },
+  {
+    "id": "estimated",
+    "label": "預估行情"
+  }
+]

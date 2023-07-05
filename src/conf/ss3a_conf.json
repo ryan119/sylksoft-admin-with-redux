@@ -1,0 +1,6 @@
+{
+  "OptionalLoginModules": [
+    "line",
+    "facebook"
+  ]
+}

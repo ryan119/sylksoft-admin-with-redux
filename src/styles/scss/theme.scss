@@ -1,0 +1,27 @@
+$colors: (
+  primary: #009999,
+  secondary: #ec6602,
+  text: #333333,
+  light: #7a7e83,
+  remark: #b7b7b7,
+  green: #15993d,
+  error: #e40b27,
+  white: #fff,
+  yellow: #ecb202,
+  darkblue: #153a99,
+  bg: #f1f3f4,
+  hr: rgba(0, 0, 0, 0.1),
+);
+
+$common: (
+  padding: 30px,
+  borderRadius: 5px,
+);
+
+@function color($colorName) {
+  @return map-get($colors, $colorName);
+}
+
+@function common($commonParam) {
+  @return map-get($common, $commonParam);
+}

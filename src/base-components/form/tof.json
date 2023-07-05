@@ -1,0 +1,4 @@
+[
+  { "id": true, "label": "Enabled" },
+  { "id": false, "label": "Disabled" }
+]

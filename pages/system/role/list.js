@@ -1,8 +1,6 @@
-import { deleteEV } from 'components/tradeMgmt/action'
-import { head } from 'lodash'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
-import { FiEdit, FiTrash2 } from 'react-icons/fi'
+import { FiEdit } from 'react-icons/fi'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import ActionButton from 'src/base-components/auth/action-button'
 import CanAccessController from 'src/base-components/auth/CanAccessController'
@@ -67,7 +65,7 @@ const RoleList = () => {
     }
   }
 
-  function _onEdit(data){
+  function _onEdit(data) {
     router.push(`/system/role/update/${data?.roleId}`)
   }
 
@@ -80,7 +78,7 @@ const RoleList = () => {
 
   const right = (
     <CanAccessController resource={router.pathname}>
-      <LinkedButton funcId='role_mgmt_create' color='primary'/>
+      <LinkedButton funcId='role_mgmt_create' color='primary' />
       <ActionButton
         funcId='role_mgmt_delete'
         onClick={deleteSelectedIds}

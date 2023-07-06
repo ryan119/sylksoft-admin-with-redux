@@ -11,9 +11,9 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="description" content="台灣船舶買賣 | Taiwan Shipbrokers" />
+          <meta name="description" content="後台管理系統" />
           {/*<link rel="icon" href="/favicon.ico" />*/}
-          <link rel="icon" href="/logos/maxmart-icon.png" />
+          <link rel="icon" href="/icons/favicon.ico" />
           <link
             rel="apple-touch-icon"
             sizes="57x57"

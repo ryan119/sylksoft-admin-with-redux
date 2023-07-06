@@ -8,7 +8,7 @@ const Index = () => {
     <Layout>
       <CenteredForm
         title=''
-        subtitle='訊昌船舶資料管理系統'>
+        subtitle='後台管理系統'>
         <Login />
         <div className='w-full mt-3 mb-6'>
         </div>

@@ -39,8 +39,8 @@ const Dropdown = () => {
         className="flex h-16 w-8 rounded-full ml-2 ">
         <span className="absolute top-0 left-0 pt-4">
           <img
-            className="h-8 w-8 shadow"
-            src={authData?.imageUrl ?? `/logos/maxmart-icon-new.png`}
+            className="h-8 w-8 shadow rounded-full"
+            src={authData?.imageUrl ?? `/favicon.ico`}
             alt="avatar"
           />
           {/*<span

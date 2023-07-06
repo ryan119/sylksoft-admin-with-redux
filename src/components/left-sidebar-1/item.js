@@ -4,9 +4,9 @@ import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import {
   FiActivity, FiAnchor,
-  FiChevronRight, FiCompass, FiDatabase,
+  FiChevronRight, FiCompass, FiDatabase, FiDroplet,
   FiFileText, FiGrid,
-  FiList, FiRadio, FiSend,
+  FiList, FiRadio, FiSend, FiServer,
   FiSettings,
   FiShoppingBag,
   FiTrendingUp,
@@ -70,7 +70,7 @@ const Item = ({ url, icon='FiList', name, badge, children, isMenu, isListAction,
       onClick={() => setHidden(!hidden)}
       className={`left-sidebar-item ${active ? 'active' : ''} ${hidden ? 'hidden-sibling' : 'open-sibling'}`}
     >
-      {icon && iconMap[icon]}
+      {icon && iconMap[icon] }
       <span className="title">{name}</span>
       {badge && <span className={`badge badge-circle badge-sm ${badge.color}`}>{badge.text}</span>}
       <FiChevronRight className="ml-auto arrow"/>
@@ -94,7 +94,9 @@ const iconMap = {
   FiRadio: <FiRadio size={20}/>,
   FiSend: <FiSend size={20}/>,
   FiDatabase: <FiDatabase size={20}/>,
-  FiList: <FiList size={20}/>
+  FiList: <FiList size={20}/>,
+  FiServer: <FiServer size={20}/>,
+  FiDroplet: <FiDroplet size={20}/>
 }
 
 const findActiveNode = (tree, current) => {

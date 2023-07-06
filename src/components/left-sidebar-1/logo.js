@@ -26,7 +26,7 @@ const Logo = () => {
             {/*<img src="/static/d-board-logo.png"/>*/}
             {/*<FiBox size={28} />
             <span>{name}</span>*/}
-            <img src="/logos/maxmart-icon-new.png" width={28} height={28} />
+            <img src="/favicon.ico" width={28} height={28} />
             <span style={style1}>{name}</span>
           </a>
         </Link>

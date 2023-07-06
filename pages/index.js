@@ -3,7 +3,6 @@ import {useDispatch} from 'react-redux'
 import SectionTitle from 'src/components/section-title'
 import {alive} from '../src/actions/common'
 
-
 const Index = () => {
   const dispatch = useDispatch()
   useEffect(() => {
@@ -12,7 +11,7 @@ const Index = () => {
 
   return (
     <>
-      <SectionTitle title="Dashboard" subtitle="歡迎來到訊昌船舶管理系統"/>
+      <SectionTitle title="Dashboard" subtitle="歡迎來到後台管理系統"/>
     </>
   )
 }

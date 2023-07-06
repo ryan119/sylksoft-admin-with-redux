@@ -18,7 +18,7 @@ export default async (req, res) => {
   return httpProxyMiddleware(req, res, {
     target: baseUrl,
     pathRewrite: [{
-      patternStr: '^/api/mxmt', replaceStr: '/api'
+      patternStr: '^/api/tiksan', replaceStr: '/api'
     }],
     headers: {
       Authorization: `Bearer ${token}`

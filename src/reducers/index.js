@@ -9,13 +9,6 @@ import member from './member'
 import common from './common'
 import user from './user'
 import roleReducer from '/src/base-components/role/reducer'
-import shipReducer from '/components/ship/reducer'
-import customerReducer from '/components/customer/reducer'
-import tradeMgmtReducer from '/components/tradeMgmt/reducer'
-import settingMgmtReducer from '/components/setting/reducer'
-import emsgMgmtReducer from '/components/emsg/reducer'
-import enquiryMgmtReducer from '/components/enquiry/reducer'
-import reportMgmtReducer from '/components/report/reducer'
 
 export default combineReducers({
   dashboard,
@@ -27,14 +20,7 @@ export default combineReducers({
   member,
   common,
   user,
-  role: roleReducer,
-  ship: shipReducer,
-  customer: customerReducer,
-  tradeMgmt: tradeMgmtReducer,
-  settingMgmt: settingMgmtReducer,
-  emsgMgmt: emsgMgmtReducer,
-  enquiryMgmt: enquiryMgmtReducer,
-  reportMgmt: reportMgmtReducer,
+  role: roleReducer
 })
 
 export function createReducer(initialState, actionHandler) {
